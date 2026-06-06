@@ -16,12 +16,8 @@ chmod +x build.sh
 ./build.sh
 ```
 
-```bash
-./closure_sm_batch --orbit60 k5_ge36000_orbit60.txt --parallel 8 --no-mu-lut
-```
-
 ## Запуск
 
 ```bash
-./closure_sm_batch --orbit60 k5_ge36000_orbit60.txt --parallel 8 2>&1 | tee orbit60_run.log
+./closure_sm_batch 0x112698 --layers 20 2>&1 | tee orbit120_112698.log # orbit120
 ```
